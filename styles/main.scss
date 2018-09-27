@@ -1,0 +1,42 @@
+@import 'base';
+
+.splash {
+    color: $dark;
+    width: 100vw;
+    height: 100vh;
+    background: $light;
+    text-align: center;
+    position: relative;
+
+    h2 {
+        font-size: $small + .5em;
+    }
+
+}
+
+.splash--content {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%,-50%);
+    width: auto;
+    height: auto;
+}
+
+.body {
+    width: 100vw;
+    height: 100vh;
+    background: $dark;
+    position: relative;
+}
+
+.body--content {
+    color: $light;
+    margin: auto auto;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    width: auto;
+    height: auto;
+}

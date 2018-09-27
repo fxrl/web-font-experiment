@@ -1,0 +1,38 @@
+//colors
+
+$primary: #555;
+$secondary: #0044ee;
+
+$light: #f2f2f2;
+$dark: #020202;
+
+//spacing
+
+$xs: 0.5em;
+$small: 1em;
+$medium: 3em;
+$large: 5em;
+
+//fonts
+
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:700|Open+Sans:300,300i,400');
+
+h1,h2,p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    line-height: 150%;
+}
+
+h3 {
+    font-family: 'Libre Baskerville';
+    font-weight: 700;
+    font-size: $medium;
+    margin: $xs auto;
+}
+
+h4 {
+    font-family: 'Libre Baskerville';
+    font-weight: 700;
+    font-size: $small;
+    margin: $xs auto;
+}

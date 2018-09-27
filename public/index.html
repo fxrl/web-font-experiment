@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>trippy web fonts with blotter js</title>
+    <link rel="stylesheet" href='../styles/main.css'>
+    <link rel="stylesheet" href='../styles/fullpage.css'>
+    <script type="application/javascript" src="../assets/js/blotter.min.js"></script>
+    <script type="application/javascript" src="../assets/js/jquery.min.js"></script>
+    <script type="application/javascript" src="../assets/js/channelSplitMaterial.js"></script>
+    <script type="application/javascript" src="../assets/js/liquidDistortMaterial.js"></script>
+    <script type="application/javascript" src="../assets/js/rollingDistortMaterial.js"></script>
+    <script type="application/javascript" src="../assets/js/fullpage.min.js"></script>
+</head>
+<body>
+    <main id='fullpage'>
+        <div class='section' data-anchor='section-1' id="section0">
+            <div class="slide">
+                <div class='splash'>
+                    <div class='splash--content'>
+                        <div id='glitch'></div>
+                        <h2>See how trippy web fonts can get</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="slide">
+                <div class='splash'>
+                    <div class='splash--content'>
+                        <div id='split'></div>
+                        <h2>See how trippy web fonts can get</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="slide">
+                    <div class='splash'>
+                        <div class='splash--content'>
+                            <div id='roll'></div>
+                            <h2>See how trippy web fonts can get</h2>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <div class='section' data-anchor='section-2' id="section1">
+            <div class='body'>
+                <div class='body--content' id='body'>
+                    <h3>Test heading</h3>
+                    <p>Esse consequat culpa eiusmod culpa sint sit exercitation qui cillum. Eiusmod aliqua mollit culpa reprehenderit nulla ipsum duis. Mollit cupidatat dolor minim non voluptate magna laboris labore quis anim ea. Esse consectetur irure dolor culpa eu fugiat ex exercitation est irure qui.</p>
+                    <h4>Subheading</h4>
+                    <p>Esse consequat culpa eiusmod culpa sint sit exercitation qui cillum. Eiusmod aliqua mollit culpa reprehenderit nulla ipsum duis. Mollit cupidatat dolor minim non voluptate magna laboris labore quis anim ea. Esse consectetur irure dolor culpa eu fugiat ex exercitation est irure qui.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <script type="text/javascript">
+        // initialize fullpage js
+        var myFullpage = new fullpage('#fullpage', {
+            anchors: ['section-1', 'section-2'],
+            navigation: true,
+            slidesNavigation: true,
+            navigationPosition: 'right',
+            navigationTooltips: ['Splash Screens', 'Body Text'],
+            licenseKey: 'OPEN-SOURCE-GPLV3-LICENSE',
+            controlArrows: false,
+        });
+    </script>
+
+    <script src='../assets/js/text-effects.js'></script>
+</body>
+</html>

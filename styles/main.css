@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css?family=Libre+Baskerville:700|Open+Sans:300,300i,400");
+h1, h2, p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+h3 {
+  font-family: "Libre Baskerville";
+  font-weight: 700;
+  font-size: 3em;
+  margin: 0.5em auto;
+}
+
+h4 {
+  font-family: "Libre Baskerville";
+  font-weight: 700;
+  font-size: 1em;
+  margin: 0.5em auto;
+}
+
+.splash {
+  color: #020202;
+  width: 100vw;
+  height: 100vh;
+  background: #f2f2f2;
+  text-align: center;
+  position: relative;
+}
+.splash h2 {
+  font-size: 1.5em;
+}
+
+.splash--content {
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+  width: auto;
+  height: auto;
+}
+
+.body {
+  width: 100vw;
+  height: 100vh;
+  background: #020202;
+  position: relative;
+}
+
+.body--content {
+  color: #f2f2f2;
+  margin: auto auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: auto;
+  height: auto;
+}
+
+/*# sourceMappingURL=main.css.map */
